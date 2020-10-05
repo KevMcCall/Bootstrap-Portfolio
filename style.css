@@ -1,3 +1,59 @@
+body {
+    background-image: url(images/daycarebackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+
+
+/*Centers Card Header*/
 h5.card-header {
     text-align: center;
 }
+/*Jumbotron Background Image and Position*/
+.jumbotron  {
+    background-image: url("images/daycarekids2.png");
+    background-repeat: no-repeat;
+    background-position: 40% 40%;
+    background-color: transparent;
+    
+    
+}
+/*Tot Town Title*/
+.jumbotron h1 {
+    text-align: center;
+    margin-top: -5%;
+    margin-left: 5%;
+    margin-bottom: 60%;
+    font-family: 'Seymour One', sans-serif;
+    font-size: 100px;
+    color: black;
+}
+
+.nav-item {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav-link {
+    color: lightblue;
+}
+
+.navbar {
+    margin-left: -20px;
+}
+
+.card {
+    border: solid red 2px;
+    background-color: transparent;
+}
+
+footer .container-fluid {
+    border: solid black 2px;
+    margin-top: 5px;
+}  
+
+
+

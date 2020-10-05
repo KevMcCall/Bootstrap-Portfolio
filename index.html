@@ -19,149 +19,115 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <!--Bootstrap CDN-->
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="container">
-        <!--Start Nav-->
-        
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-            <div class="container">
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!--End Nav-->
 
-        <!--Jumbotron Start-->
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">Fluid jumbotron</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.
-                </p>
-            </div>
+    <!--Start Nav-->
+
+    <nav class="navbar navbar-expand-md bg-dark justify-content-center">
+        <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+            <ul class="navbar-nav mx-auto text-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">Home</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                <li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
         </div>
-        <!--Jumbotron End-->
+    </nav>
+    <!--End Nav-->
 
-        <div class="row">
-            <div class="col-4">
-                <!--Card-->
-                <div class="card">
-                    <h5 class="card-header">Card Title</h5>
-                    <div class="card-body">
-                        <p class="card-text">Card content</p>
-                    </div>
-                    <div class="card-footer">
-                        Card footer
-                    </div>
-                </div>
-            </div>
+    <!--Jumbotron Start-->
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="title">Tot Town</h1>
+        </div>
+        <div style="background-image: url('images/daycarekids2.png');"></div>
+    </div>
+    <!--Jumbotron End-->
 
-            <div class="col-4">
-                <!--Card-->
-                <div class="card">
-                    <h5 class="card-header">Card Title</h5>
-                    <div class="card-body">
-                        <p class="card-text">Card content</p>
-                    </div>
-                    <div class="card-footer">
-                        Card footer
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-4">
-                <!--Card-->
-                <div class="card">
-                    <h5 class="card-header">Card Title</h5>
-                    <div class="card-body">
-                        <p class="card-text">Card content</p>
-                    </div>
-                    <div class="card-footer">
-                        Card footer
-                    </div>
+    <div class="row">
+        <div class="col-4">
+            <!--Card-->
+            <div class="card">
+                <h5 class="card-header">Our Programs</h5>
+                <div class="card-body">
+                    <p class="card-text">Our highly qualified teachers and staff guide the way for your child to become
+                        independent while making good choices.</p>
                 </div>
             </div>
         </div>
-        
-        <footer>
-            <div class="container mt-4">
-                <!-- Grid row -->
-                <div class="row">
 
-                    <!-- Grid column -->
-                    <div class="col-12 mb-4">
+        <div class="col-4">
+            <!--Card-->
+            <div class="card">
+                <h5 class="card-header">Parent Corner</h5>
+                <div class="card-body">
+                    <p class="card-text">We offer an open-door policy for our parents and encourage you to browse our
+                        parent resources and information.</p>
+                </div>
+            </div>
+        </div>
 
-                        <!--Footer-->
-                        <footer class="page-footer blue text-center text-md-left mt-0">
+        <div class="col-4">
+            <!--Card-->
+            <div class="card">
+                <h5 class="card-header">Schedule A Tour</h5>
+                <div class="card-body">
+                    <p class="card-text">During your tour you will have the opportunity to meet us and learn more about
+                        what we have to offer and we can answer any questions you may have. </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                            <!--Footer Links-->
-                            <div class="container-fluid">
-                                <div class="row">
+    <footer>
+        <div class="container">
+            <!-- Grid row -->
+            <div class="row">
 
-                                    <!--First column-->
-                                    <div class="col-6">
-                                        <h5 class="title mb-3">Footer Content</h5>
-                                        <p>Here you can use rows and columns here to organize your footer content.</p>
-                                    </div>
-                                    <!--First column-->
+                <!-- Grid column -->
+                <div class="col-12 mb-4">
 
-                                    <!--Second column-->
-                                    <div class="col-6">
-                                        <h5 class="title mb-3">Links</h5>
-                                        <ul>
-                                            <li><a href="#!">Link 1</a></li>
-                                            <li><a href="#!">Link 2</a></li>
-                                            <li><a href="#!">Link 3</a></li>
-                                            <li><a href="#!">Link 4</a></li>
-                                        </ul>
-                                    </div>
-                        </footer>
+                    <!--Footer-->
+                    <footer class="page-footer blue text-center text-md-left mt-0">
 
-
-                        <!--Second Example-->
-
-                        <!--Nav-->
-                        <!--Jumbotron-->
-                        <div class="container">
+                        <!--Footer Links-->
+                        <div class="container-fluid">
                             <div class="row">
-                                <div class="col-4">
 
-                                    <!--Card-->
+                                <!--First Column-->
+                                <div class="col-6">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, totam quisquam,
+                                        labore, dolores voluptatem ipsum deleniti sed inventore alias reprehenderit
+                                        quasi quia. Molestiae voluptates non exercitationem omnis, recusandae esse
+                                        culpa!</p>
                                 </div>
-                                <div class="col-4">
+                                <!--First Column-->
 
-                                    <!--Card-->
+                                <!--Second Column-->
+                                <div class="col-6">
+                                    <h5 class="title mb-3">Links</h5>
+                                    <ul>
+                                        <li><a href="#!">Home</a></li>
+                                        <li><a href="#!">Services</a></li>
+                                        <li><a href="#!">About Us</a></li>
+                                        <li><a href="#!">Contact</a></li>
+                                    </ul>
                                 </div>
-                                <div class="col-4">
-
-                                    <!--Card-->
-                                </div>
-
-                            </div>
-                        </div>
+                                <!--Second Column-->
+                    </footer>
 
 
 
